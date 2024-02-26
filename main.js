@@ -33,14 +33,14 @@ viewer.addEventListener('click', () => {
 
 /*
 // デフォルトモデルを設定
-viewer.src = 'model/wristWatch-model.glb';
+viewer.src = 'model/apple.glb';
 
 // ボタンのクリックイベントハンドラを設定
 model1Button.addEventListener('click', () => {
-viewer.src = 'model/wristWatch-model.glb';
+viewer.src = 'model/apple.glb';
 });
 
 model2Button.addEventListener('click', () => {
-viewer.src = 'model/wristWatch-model2.glb';
+viewer.src = 'model/boat.glb';
 });
 */
