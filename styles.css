@@ -1,0 +1,70 @@
+/* styles.css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  #modelViewer {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .buttons {
+    position: absolute; /* ボタンを絶対位置に設定 */
+    bottom: 2%; /* 画面下に配置 */
+    left: 50%; /* 画面中央に水平配置 */
+    transform: translateX(-50%); /* 画面中央に移動 */
+    text-align: center; /* ボタンを中央揃え */
+  }
+
+  button {
+    border: none; /* ボタンのボーダーを消す */
+    border-radius: 50%; /* 角を丸くする */
+    overflow: hidden; /* 画像が角丸の外にはみ出ないようにする */
+    padding: 0; /* ボタンのパディングをなくす */
+    line-height: 0; /* ボタン内の行の高さを0にする */
+}
+
+button img {
+    display: block; /* 画像をブロック要素として表示 */
+    width: 100%; /* 画像の幅をボタンの幅に合わせる */
+    height: auto; /* 画像の高さを自動調整する */
+}
+
+
+  #ar-button {
+    background-image: url('img/AR-icon.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 12px 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    bottom: 132px;
+    padding: 0px 16px 0px 40px;
+    font-family: Roboto Regular, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    color:#4285f4;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 18px;
+    border: 1px solid #DADCE0;
+  }
+
+  #ar-button:active {
+    background-color: #E8EAED;
+  }
+
+  #ar-button:focus {
+    outline: none;
+  }
+
+  #ar-button:focus-visible {
+    outline: 1px solid #4285f4;
+  }

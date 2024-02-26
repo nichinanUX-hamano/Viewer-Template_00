@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html  lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>ViewerTemp-00</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="main.js"></script>
+  </head>
+  <body>
+    <model-viewer 
+    id="modelViewer" 
+    src="model/apple.glb"
+    shadow-intensity="1" 
+    ar ar-scale="fixed"
+    ar ar-modes="webxr scene-viewer quick-look"
+    ar-scale="auto"
+    ios-src="model/wristWatch-model.usdz"
+    camera-controls autoplay 
+    alt="A 3D model carousel">
+    <!--
+    <div class="buttons">
+      <button id="model1Button"><img src="img/button-1.png" alt="Model 1"></button>
+      <button id="model2Button"><img src="img/button-2.png" alt="Model 1"></button>
+    </div>
+    -->
+    <button slot="ar-button" id="ar-button">
+      View in your space
+    </button>  
+    </model-viewer>
+  </body>
+</html>
